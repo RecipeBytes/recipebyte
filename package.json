@@ -1,0 +1,32 @@
+{
+  "name": "recipebytes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server/server.js",
+    "build": "webpack -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "path": "^0.12.7",
+    "pg-promise": "^8.4.5",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-es2015-destructuring": "^6.23.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^4.16.1",
+    "webpack-cli": "^3.0.8"
+  }
+}
