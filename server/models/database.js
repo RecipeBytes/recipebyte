@@ -14,7 +14,6 @@ let db = pgp('postgres://nqnxdhws:pmU5A841ugjh1uqwBCjckXQjagzVotF1@stampy.db.ele
 db.connect()
   .then(obj => {
     console.log('Connected to database');
-    db.conn = obj;
     obj.done(); // success, release the connection;
   })
   .catch(error => {
